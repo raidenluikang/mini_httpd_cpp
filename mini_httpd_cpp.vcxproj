@@ -43,14 +43,14 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -127,13 +127,13 @@
   <ItemGroup>
     <ClCompile Include="mini_httpd.cpp" />
     <ClCompile Include="tdate_parse.cpp" />
-    <ClCompile Include="tdate_parser_orig.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="port.hpp" />
+    <ClInclude Include="mime_types.h" />
     <ClInclude Include="tdate_parser.hpp" />
-    <ClInclude Include="tdate_parser_orig.h" />
-    <ClInclude Include="version.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="mime_types.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

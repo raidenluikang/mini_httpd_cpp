@@ -21,22 +21,18 @@
     <ClCompile Include="tdate_parse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="tdate_parser_orig.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="version.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="port.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="tdate_parser.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="tdate_parser_orig.h">
+    <ClInclude Include="mime_types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="mime_types.txt">
+      <Filter>Header Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
